@@ -15,7 +15,7 @@ def newgit(ip,appname)
 
 def newselenium(path)
 {
-  sh 'java -jar "${path}"/testing.jar'
+  sh 'java -jar "${path}"testing.jar'
 }
 
 
